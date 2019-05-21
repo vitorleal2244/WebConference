@@ -1,2 +1,3 @@
 # WebConference
-Repositório de teste
+Aplicação web para gerir uma Conferência
+Primeira alteração!
