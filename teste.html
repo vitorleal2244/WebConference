@@ -35,5 +35,34 @@
     <dl><li>1</li><li>2</li></dl>
     <dt><li>1</li><li>2</li></dt>
     <dd><li>1</li><li>2</li></dd>
+    <hr>
+    <h2>Formulários</h2>
+    <form method="GET">
+        <fieldset>
+            <legend>Autentificação</legend>
+            <label>E-mail: <br><input name="email" type="email"></label><br>
+            <label>Password: <br><input name="password" type="password"></label><br>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Login">
+        </fieldset>
+    </form>
 </body>
 </html>
+
+<script>
+console.log(typeof Infinity);
+
+const name = "Vitor";
+console.log(`Olá ${name}`);
+
+//Expressões em função em arrow
+let sum = (a,b) => a+b;
+
+let soma = (a, b) => {
+    let result = a+b;
+    return result;
+}
+
+console.log(soma(3,3));
+console.log(sum(3,4));
+</script>
